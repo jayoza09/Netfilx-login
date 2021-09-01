@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <style>
+        body{background: url('./images/netflix.jpg');}
+        *{box-sizing: border-box;margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+        .main{display: flex;justify-content: center;align-items: center;height: 100vh;}
+        .frm{width: 400px;padding: 40px;background: rgba(0,0,0,0.9);}
+        .tbl{width: 100%;}
+        .col{color: #fff;}
+        .txt{width: 100%;padding: 16px;margin-top: 16px;border-radius: 6px;border: none;
+            color: #fff;outline: none; background-color: #454545;}
+        .btn{width: 100%;padding: 12px;background-color: #E50914;border: none;outline: none;border-radius: 6px;
+        color: #fff;font-size: 20px;margin-bottom: 10px;}
+        .tdd{display: flex;justify-content: space-between;}
+        .netlogo{
+width: 200px;height: 80px;position: absolute;
+        }
+        
+    </style>
+  </head>
+  <body>
+      <img src="./images/netlogo.png"  class="netlogo" alt="">
+    <div class="main">
+      <form class="frm">
+        <table class="tbl">
+          <tr>
+            <td><h2 class="col">Sign In</h2></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="txt" placeholder="Email or phone number"/></td>
+          </tr>
+          <tr>
+            <td><input type="password" class="txt" placeholder="Password"/></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><input type="button" value="Sign In" class="btn"/></td>
+          </tr>
+          <tr>
+            <td class="tdd col">
+              <span><input type="checkbox">Remember me </span>
+              <span><a href="#" class="col">Need help?</a></span>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="col"><i class="fab fa-facebook-square"></i>&nbsp;Login with Facebook</td>
+          </tr>
+          <tr>
+              <td class="col">New to Netflix?&nbsp;<a href="#" class="col">Sign up now.</a></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
